@@ -1,0 +1,97 @@
+# Deep Learning PR1 – Breast Cancer Classification
+
+## Project Overview
+This project focuses on building and evaluating Deep Learning models for Breast Cancer Classification using the Breast Cancer Wisconsin Diagnostic dataset available in Scikit-learn.
+
+The objective is to compare different neural network techniques and understand how they affect model performance and generalization.
+
+## Dataset
+- **Dataset:** Breast Cancer Wisconsin Diagnostic
+- **Source:** `sklearn.datasets.load_breast_cancer(as_frame=True)`
+- **Total Samples:** 569
+- **Total Features:** 30
+- **Classes:** Malignant (0) and Benign (1)
+
+## Tasks Covered
+
+1. **Data Preprocessing:** Dataset loading, exploratory data analysis, stratified train-test split and StandardScaler.
+2. **Single Layer Perceptron (SLP):** Building and evaluating a baseline neural network.
+3. **Multi-Layer Perceptron (MLP):** Comparing ReLU, Tanh and Sigmoid activation functions.
+4. **Early Stopping:** Comparing model performance with and without Early Stopping.
+5. **Dropout Regularization:** Comparing dropout rates of 0.1, 0.3 and 0.5.
+6. **L1, L2 and L1-L2 Regularization:** Comparing different regularization techniques.
+7. **Final Model and Business Insights:** Combining techniques and comparing model performance.
+
+## Project Structure
+
+```text
+DL-PR1-Breast-Cancer-Classification/
+│
+├── DL_PR1.ipynb
+├── DL_PR1.html
+├── README.md
+├── requirements.txt
+│
+└── plots/
+    ├── class_distribution.png
+    ├── correlation_heatmap.png
+    ├── slp_training_curves.png
+    ├── activation_comparison.png
+    ├── early_stopping_comparison.png
+    ├── dropout_comparison.png
+    ├── regularization_comparison.png
+    └── results_comparison.png
+```
+
+## Results
+
+[ADD YOUR FINAL RESULTS TABLE HERE – COPY FROM NOTEBOOK]
+
+## Visualizations
+
+The plots folder contains visualizations generated during the project, including:
+- Class distribution
+- Correlation heatmap
+- SLP training curves
+- Activation function comparison
+- Early Stopping comparison
+- Dropout rate comparison
+- Regularization comparison
+- Final model results comparison
+
+## Clinical Insight for Medical Diagnosis Support
+
+The project evaluates model performance using Accuracy, Precision, Recall and F1-Score.
+
+In cancer diagnosis, identifying malignant cases is especially important because false negatives can be more costly than false positives. Model selection and classification threshold should therefore consider the precision-recall trade-off.
+
+[ADD YOUR FINAL MODEL RECOMMENDATION FROM NOTEBOOK]
+
+## Technologies Used
+
+- Python
+- TensorFlow and Keras
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+## Installation
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Video Explanation
+
+[ADD YOUR GOOGLE DRIVE OR UNLISTED YOUTUBE VIDEO LINK HERE]
+
+## Author
+
+[Your Name]
+
+Deep Learning PR1 – Red & White Skill Education
